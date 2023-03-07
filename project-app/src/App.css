@@ -1,0 +1,223 @@
+
+/*----------------------===HOME===-----------------------------*/
+.resume {
+  height: auto;
+  display: flex;
+  margin: 10px auto;
+}
+.overlay{
+  padding-top: 40px;
+  margin: 50px 100px auto;
+  width: auto;
+  height: auto;
+  background-color: #f3efef;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.left_block{
+  width: 700px;
+  justify-content: center;
+}
+.right_block{
+  width: 700px;
+  justify-content: center;
+}
+.left_block .bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.red_stroke{
+  text-indent: 25px;
+  text-align: justify;
+  font-size: 20px;
+  padding: 20px;
+  padding-right: 0;
+}
+.my_photo img {
+  border-radius: 25px;
+  align-items: center;
+}
+.sertificate{
+  margin: 50px auto;
+  border: 2px solid #282c34;
+  box-shadow: 0 0 75px #f8f9fa;
+}
+.percent_skills{
+  height: auto;
+  margin: 50px auto;
+  padding-left: 20px;
+  justify-content: space-around;
+  box-shadow: inset 0 0 96px rgb(125, 126, 126);
+  border-radius: 10px;
+}
+.skills{
+  margin: 15px auto;
+  margin-right: 30px;
+  align-items: center;
+  width: 600px;
+}
+.name_skill{
+  width: 150px;
+}
+.js,.html,.css,.sql,.react{
+  display: flex;
+  align-items: center;
+}
+
+/*-------------------------------------===VisCard===-----------------------------*/
+.info_me{
+  width: 700px;
+  font-size: 16px;
+  margin: 20px 30px;
+}
+.info_me p{
+  margin-bottom: 5px;
+}
+/*-------------------------------------===AboutMe===-----------------------------*/
+.resume_about{
+  font-size: 16px;
+  margin: 30px auto;
+}
+
+@media(max-width: 900px){
+  .resume{
+    width: 600px;
+    flex-direction: column;
+  }
+  .sertificate{
+    width: 600px;
+  }
+  .percent_skills{
+    width: 600px;
+  }
+  .red_stroke{
+    padding: 20px;
+  }
+  .overlay{
+    padding: 40px;
+  }
+  .my_photo img{
+    margin: auto 160px;
+  }
+}
+@media(max-width: 640px){
+  .resume{
+    width: 400px;
+  }
+  .sertificate{
+    width: 400px;
+  }
+  .percent_skills{
+    width: 400px;
+  }
+  .my_photo img{
+    margin: auto 70px;
+  }
+  .red_stroke{
+    padding: 20px;
+  }
+  .overlay{
+    padding: 40px;
+  }
+}
+@media(max-width: 410px){
+  .resume{
+    width: 300px;
+  }
+  .sertificate{
+    width: 300px;
+  }
+  .percent_skills{
+    width: 300px;
+  }
+  .my_photo img{
+    margin: auto 10px;
+  }
+  .red_stroke{
+    padding: 20px;
+  }
+  .overlay{
+    padding: 30px;
+  }
+}
+/*----------------------===PORTFOLIO===-----------------------------*/
+.cards{
+  width: auto;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  margin: auto 40px;
+}
+@media(max-width: 1000px){
+  .cards{
+    flex-direction: column;
+    margin-top: 260px;
+  }
+  .card{
+    margin: 20px 40px;
+  }
+}
+@media(max-width: 600px){
+  .cards{
+    flex-direction: column;
+    margin-top: 210px;
+  }
+  .card{
+    margin: 10px 30px;
+  }
+}
+/*----------------------===EDUCATION===-----------------------------*/
+.edu{
+  width: 800px;
+  margin: 100px auto;
+  padding: 25px 0;
+
+}
+.edu ul li{
+  list-style-type: none;
+}
+.education ul li:last-child{
+  border-bottom: 3px solid #282c34;
+}
+.add_education .add_list{
+  border-bottom: 3px solid #282c34;
+}
+.edu ul li .date {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.edu ul li .info {
+  margin-bottom: 20px;
+}
+.education ul li:before,
+.add_education ul li:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 3px solid #106322;
+}
+.edu .semi-bold{
+    font-size: 20px;
+    font-weight: 500;
+}
+.add_education ul .system_admin:after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 100px;
+    background: #106322;
+}
+
