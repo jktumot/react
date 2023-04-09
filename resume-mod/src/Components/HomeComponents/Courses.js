@@ -34,7 +34,7 @@ export default class Courses extends Component {
             <li>
               <div class="date">2022</div>
               <div class="info">
-                <h4>Томский государственный университет</h4>
+                <h4>Национальный исследовательский Томский государственный университет</h4>
                 <p>Системный Администратор Linux: Devops с нуля</p>
               </div>
             </li>

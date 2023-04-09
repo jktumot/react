@@ -11,8 +11,8 @@ export default class Skills extends Component {
             <ProgressBar
               className="skills"
               animated
-              now={35}
-              label={`${35}%`}
+              now={45}
+              label={`${45}%`}
             />
           </div>
           <div className="html">
@@ -39,7 +39,7 @@ export default class Skills extends Component {
               className="skills"
               animated
               now={35}
-              label={`${30}%`}
+              label={`${35}%`}
             />
           </div>
           <div className="react">
@@ -47,8 +47,26 @@ export default class Skills extends Component {
             <ProgressBar
               className="skills"
               animated
+              now={40}
+              label={`${40}%`}
+            />
+          </div>
+          <div className="material">
+            <h5 className="name_skill">Material-UI</h5>
+            <ProgressBar
+              className="skills"
+              animated
               now={30}
               label={`${30}%`}
+            />
+          </div>
+          <div className="boot">
+            <h5 className="name_skill">Bootstrap</h5>
+            <ProgressBar
+              className="skills"
+              animated
+              now={34}
+              label={`${34}%`}
             />
           </div>
         </div>

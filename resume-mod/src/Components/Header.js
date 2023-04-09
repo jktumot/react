@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import {
   Container,
-  Form,
-  FormControl,
   Nav,
   Navbar,
-  Button,
 } from "react-bootstrap";
 import logo from "../assets/logoM-2.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,7 +16,7 @@ export default class Header extends Component {
     return (
       <>
         <Router>
-          <Navbar bg="dark" variant="dark">
+          <Navbar fixed="top" bg="dark" variant="dark">
             <Container>
               <Navbar.Brand as={Link} to="/">
                 <img
@@ -31,11 +28,11 @@ export default class Header extends Component {
                 />  
               </Navbar.Brand>
               <Nav className="me-auto">
-                <Nav.Link as={Link} to="/">
+                <Nav.Link as={Link} to="/" style={{fontSize: 25, fontWeight: 600}}>
                   {" "}
                   Home{" "}
                 </Nav.Link>
-                <Nav.Link as={Link} to="/portfolio">
+                <Nav.Link as={Link} to="/portfolio" style={{fontSize: 25, fontWeight: 600}}>
                   {" "}
                   Portfolio{" "}
                 </Nav.Link>

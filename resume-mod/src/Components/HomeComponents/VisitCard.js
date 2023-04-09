@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Me from "../../assets/me.jpg";
+import Me from "../../assets/me2.jpg";
 import { AiTwotonePhone, AiFillMail, AiOutlineWhatsApp } from "react-icons/ai";
-import {Link} from "react-router-dom";
+
 import ButtonMailto from "../Mailto";
 
 export default class VisitCard extends Component {
@@ -32,7 +32,7 @@ export default class VisitCard extends Component {
           </div>
 
           <div className="photo_profile">
-            <img src={Me} width="270" height="340" />
+            <img src={Me} alt="my_photo" width="270" height="360" />
           </div>
         </div>
       </>

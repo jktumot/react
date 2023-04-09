@@ -6,6 +6,7 @@ export default class Portfolio extends Component {
     return (
       <div>
         <PortfolioList />
+        
       </div>
     )
   }

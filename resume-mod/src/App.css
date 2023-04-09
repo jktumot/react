@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
@@ -40,14 +40,15 @@
     opacity: 1;
   }
 }
-.home {
-  color: #61dafb;
-}
+
 /*--------------------------------===HOME===--------------------------------*/
 .main {
+  padding-top: 60px;
   padding-bottom: 90px;
   width: 1200px;
   margin: auto;
+  background: rgb(210, 210, 210);
+
 }
 .block_top {
   display: flex;
@@ -77,15 +78,19 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.photo_profile {
+.photo_profile img{
   margin-right: 10px;
   margin-left: 10px;
+  border-radius: 10px 100px / 20px;
+  
 }
 /*--------------------------------===Skills===--------------------------------*/
 .percent_skills {
   width: 600px;
   margin: 50px auto;
-  padding-right: 20px;
+}
+.card_view {
+  padding: 10px;
 }
 /*--------------------------------===Education===--------------------------------*/
 .education {
@@ -107,12 +112,13 @@
   text-indent: 25px;
   text-align: justify;
   font-size: 20px;
-  padding: 20px;
-  padding-right: 0;
+
+
 }
 .resume_about {
   width: 600px;
   margin: auto;
+  
 }
 /*--------------------------------===Courses===--------------------------------*/
 .courses {
@@ -122,6 +128,7 @@
 /*--------------------------------===Portfolio===--------------------------------*/
 .portfolio{
   margin: 20px;
+  padding-top: 80px;
 }
 /*--------------------------------===Adaptive===--------------------------------*/
 @media (max-width: 1200px) {
