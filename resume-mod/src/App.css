@@ -48,7 +48,6 @@
   width: 1200px;
   margin: auto;
   background: rgb(210, 210, 210);
-
 }
 .block_top {
   display: flex;
@@ -78,11 +77,10 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.photo_profile img{
+.photo_profile img {
   margin-right: 10px;
   margin-left: 10px;
   border-radius: 10px 100px / 20px;
-  
 }
 /*--------------------------------===Skills===--------------------------------*/
 .percent_skills {
@@ -112,13 +110,11 @@
   text-indent: 25px;
   text-align: justify;
   font-size: 20px;
-
-
 }
 .resume_about {
   width: 600px;
   margin: auto;
-  
+  padding: 10px;
 }
 /*--------------------------------===Courses===--------------------------------*/
 .courses {
@@ -126,7 +122,7 @@
   margin: auto;
 }
 /*--------------------------------===Portfolio===--------------------------------*/
-.portfolio{
+.portfolio {
   margin: 20px;
   padding-top: 80px;
 }
